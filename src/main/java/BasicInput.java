@@ -10,31 +10,23 @@ public class BasicInput {
 
         // TODO Define char and string variables similarly
 
-        System.out.println("Enter integer:");
+        System.out.print("Enter integer:\n");
         userInt = scnr.nextInt();
 
 
-        System.out.println("Enter double:");
+        System.out.print("Enter double:\n");
         userDouble = scnr.nextDouble();
 
-        System.out.println("Enter character:");
+        System.out.print("Enter character:\n");
         userChar = scnr.next().charAt(0);
 
-        System.out.println("Enter string:");
+        System.out.print("Enter string:\n");
         userString = scnr.next();
 
 
-        System.out.print(userInt + " ");
-        System.out.print(userDouble + " ");
-        System.out.print(userChar);
-        System.out.println(" " + userString);
-        System.out.print(userString + " ");
-        System.out.print(userChar);
-        System.out.print(" " + userDouble + " ");
-        System.out.println(userInt);
-        System.out.print(userDouble);
-        System.out.print(" cast to an integer ");
-        System.out.print((int)(userDouble));
+        System.out.println(userInt + " " + userDouble + " " + userChar + " " + userString);
+        System.out.println(userString + " " + userChar + " " + userDouble + " " + userInt);
+        System.out.print(userDouble + " cast to an integer " + (int)(userDouble));
 
 
         // TODO (1): Finish reading other items into variables, then output the four values on a single line separated by a space
